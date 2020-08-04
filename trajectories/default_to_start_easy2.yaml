@@ -5,11 +5,7 @@ joint_trajectory:
       secs: 0
       nsecs:         0
     frame_id: "world"
-  joint_names: - X
-- Y
-- B
-- Z
-- A
+  joint_names: [X, Y, B, Z, A]
   points: 
     - 
       positions: [1.2000000000000026, 0.3000000000000086, 1.3000000000000056, 0.04999999999998806, 7.786884563080557e-15]
